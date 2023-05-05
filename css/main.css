@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 52%;
-  margin: 2.5rem auto;
+  margin: 3.5rem auto;
   padding: 2.5rem 2rem;
   background-color: hsl(0, 0%, 100%);
 }
@@ -98,7 +98,7 @@ body {
   display: none;
 }
 .container .notifications__list .unread {
-  background-color: hsl(211, 68%, 94%);
+  background-color: hsl(210, 60%, 98%);
 }
 .container .notifications__list .notification__source-img {
   border-radius: 50%;

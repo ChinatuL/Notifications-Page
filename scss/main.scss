@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 52%;
-    margin: 2.5rem auto;
+    margin: 3.5rem auto;
     padding: 2.5rem 2rem;
     background-color: $white;
 
@@ -90,7 +90,7 @@ body {
 
         .unread {
             
-            background-color: $light-grayish-blue1;
+            background-color: $very-light-grayish-blue;
         }
 
         .notification__source-img {
