@@ -81,6 +81,10 @@ body {
                 background-color: $red;
                 margin: 0.5rem 0 0 0.2rem;
             }
+
+            .hide-badge {
+                display: none;
+            }
         }
 
         .unread {
