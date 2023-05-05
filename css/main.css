@@ -143,4 +143,28 @@ body {
 .container .notifications__list .group {
   color: hsl(219, 85%, 26%);
   font-weight: 800;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 2.5rem 1rem;
+    margin: auto;
+    font-size: 0.8rem;
+  }
+  .container .notifications__header-title > h1 {
+    font-size: 1.2rem;
+  }
+  .container .notifications__header-badge {
+    margin-left: 0.2rem;
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */
