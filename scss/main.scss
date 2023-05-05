@@ -69,11 +69,12 @@ body {
 
         .notification__item {
             position: relative;
-            display: flex;
-            // align-items: center;
+            display: grid;
+            grid-template-columns: 50px 1fr;
             padding: 1rem;
 
             .unread-badge {
+                display: inline-block;
                 width: 0.5rem;
                 height: 0.5rem;
                 border-radius: 50%;
@@ -91,8 +92,6 @@ body {
             margin-right: 1rem;
             width: 40px;
             border-radius: 50%;
-            object-fit: contain;
-            vertical-align: top;
         }
 
         .notification__source {
@@ -104,10 +103,6 @@ body {
             &:hover {
                 color: $blue;
             }
-        }
-
-        .img-nathan {
-            margin-top: -1.2rem;
         }
 
         .notification__time {
