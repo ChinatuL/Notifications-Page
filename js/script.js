@@ -4,7 +4,7 @@ const notificationBadge = document.querySelector(
 );
 const notifications = document.querySelectorAll(".notification__item");
 const unreadBadge = document.querySelector(".notifications__header-badge");
-const unreadNotifications = document.querySelectorAll(".unread")
+const unreadNotifications = document.querySelectorAll(".unread");
 
 let count = unreadNotifications.length;
 
@@ -28,5 +28,5 @@ btn.addEventListener("click", () => {
         );
         notification.parentElement.classList.remove("unread");
         unreadBadge.innerHTML = 0;
-    })
-})
+    });
+});

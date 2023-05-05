@@ -57,18 +57,18 @@ body {
   color: hsl(224, 21%, 14%);
 }
 .container .notifications__header-badge {
+  border-radius: 0.5rem;
   margin-left: 1rem;
+  padding: 0.2rem 0.8rem;
   background-color: hsl(219, 85%, 26%);
   color: hsl(0, 0%, 100%);
-  padding: 0.2rem 0.8rem;
-  border-radius: 0.5rem;
 }
 .container .notifications__header-btn {
   border: none;
   background: transparent;
   cursor: pointer;
-  font: 500 1rem "Plus Jakarta Sans", sans-serif;
   color: hsl(219, 12%, 42%);
+  font: 500 1rem "Plus Jakarta Sans", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .container .notifications__header-btn:hover {
@@ -91,25 +91,24 @@ body {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: hsl(1, 90%, 64%);
   margin: 0.5rem 0 0 0.2rem;
+  background-color: hsl(1, 90%, 64%);
 }
 .container .notifications__list .notification__item .hide-badge {
   display: none;
 }
 .container .notifications__list .unread {
   background-color: hsl(211, 68%, 94%);
-  border-radius: 0.5rem;
 }
 .container .notifications__list .notification__source-img {
-  margin-right: 1rem;
-  width: 40px;
   border-radius: 50%;
+  width: 40px;
+  margin-right: 1rem;
 }
 .container .notifications__list .notification__source {
+  padding-right: 0.2rem;
   color: hsl(224, 21%, 14%);
   font-weight: 800;
-  padding-right: 0.2rem;
   transition: all 0.3s ease-in-out;
 }
 .container .notifications__list .notification__source:hover {
@@ -131,13 +130,13 @@ body {
 }
 .container .notifications__list .picture-post {
   position: absolute;
-  right: 0;
   top: 1rem;
+  right: 0;
   width: 40px;
 }
 .container .notifications__list .post {
-  font-weight: 800;
   color: hsl(219, 12%, 42%);
+  font-weight: 800;
   transition: all 0.3s ease-in-out;
 }
 .container .notifications__list .post:hover {
@@ -164,10 +163,10 @@ body {
     font-size: 1.2rem;
   }
   .container .notifications__header-badge {
+    border-radius: 0.5rem;
     margin-left: 0.2rem;
+    padding: 0.2rem 0.5rem;
     background-color: hsl(219, 85%, 26%);
     color: hsl(0, 0%, 100%);
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
